@@ -17,11 +17,8 @@ const sendMessage = (message) => {
   };
 
   sqs.sendMessage(params, function (err, data) {
-    if (err) {
-      console.log("Error", err);
-    } else {
-      console.log("Success", data.MessageId);
-    }
+    if (err) console.log("Error", err);
+    else console.log("Success", data.MessageId);
   });
 }
 
