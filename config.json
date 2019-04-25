@@ -1,0 +1,12 @@
+{
+    "awsUpdate": {
+        "accessKeyId": "AWS_ACCESS_KEY_ID",
+        "secretAccessKey": "AWS_SECRET_ACCESS_KEY",
+        "region": "AWS_RIGION"
+    },
+    "apiVersion": "2012-11-05",
+    "delaySeconds": 0,
+    "messageGroupId": "MESSAGE_GROUP_ID",
+    "queueUrl": "QUEUE_AWS_URL"
+}
+
